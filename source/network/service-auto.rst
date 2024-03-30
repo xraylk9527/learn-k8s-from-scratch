@@ -90,8 +90,8 @@ DNS
 
 .. code-block:: bash
 
-    $ kubectl create deployment demo --image=gcr.io/google-samples/hello-app:1.0 --port=8080
-    $ kubectl expose deployment demo
+     kubectl create deployment demo --image=gcr.io/google-samples/hello-app:1.0 --port=8080
+     kubectl expose deployment demo
 
 这时不仅有一个clusterIP可供整个cluster访问，同时一个DNS域名也被注册了（类似前面讲过的POD）。
 
